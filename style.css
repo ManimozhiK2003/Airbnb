@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: "poppins",sans-serif;
+}
+.logo,.search{
+   color: rgb(255, 17, 69);
+}
+.searchbar{
+    display: flex;
+    flex-wrap: wrap;
+    border: solid black 1px;
+    width: 30%;
+    justify-content: space-around;
+    padding: 10px;
+    border-radius: 30px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+.filtersection{
+    display: flex;
+    justify-content: space-around;
+    border: solid black 1px;
+    padding: 10px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+img{
+    border-radius: 10px;
+    transition: 1s;
+}
+img:hover{
+    transform: scale(1.1);
+}
+.hotel-container{
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    border: solid black 1px;
+}
+.footer-section{
+    padding: 10px;
+    text-align: center;
+}
